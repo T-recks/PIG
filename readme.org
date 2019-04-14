@@ -1,16 +1,23 @@
 * Project directories
-libs/    :  clones of library source code
+** libs/    
+clones of library source code
 
-lights/  :  neopixel related code
+** lights/  
+neopixel related code
 
-motor/   :  motor related code
+** motor/  
+motor related code
+
+* Libraries
+Follow the Adafruit instructions for [[https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/installing-software][Motor Driver]] and [[https://learn.adafruit.com/adafruit-neopixel-uberguide/python-circuitpython][NeoPixel]]. Make sure any python libraries are installed system wide, e.g. using ~sudo pip3 install <lib>~.
+
+TODO: make a short shell script for automatically installing libs.
 
 * Running python code
-Use ~sudo python3~ to run python files.
+Use ~sudo python3~ to run python files. Ensure all libraries are installed beforehand.
 
 * Library Documentation
-Run ~python3 -m http.server~ in libs/Adafruit.../docs/_build/html to start server for
-library documentation for the Adafruit motorkit library.
+Run ~python3 -m http.server~ in the directory MotorKit-Docs/ to start a server for library documentation for the Adafruit motorkit library (the docs are HTML files, unfortunately).
 
 Access using ~http://<rpi ip address>:8000~ in a web browser.
 
