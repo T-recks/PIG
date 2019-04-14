@@ -6,11 +6,11 @@ lights/  :  neopixel related code
 motor/   :  motor related code
 
 * Running python code
-Use `sudo python3` to run python files.
+Use ~sudo python3~ to run python files.
 
 * Library Documentation
-Run `python3 -m http.server` in libs/Adafruit.../docs/_build/html to start server for
+Run ~python3 -m http.server~ in libs/Adafruit.../docs/_build/html to start server for
 library documentation for the Adafruit motorkit library.
 
-Access using `http://<rpi ip address>:8000` in a web browser.
+Access using ~http://<rpi ip address>:8000~ in a web browser.
 
